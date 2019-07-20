@@ -1,0 +1,31 @@
+.important-dates {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-areas:
+		'start-date start-date start-date'
+		'item1 item2 item3'
+		'item4 item5 item6';
+}
+
+.start-date {
+	grid-area: start-date;
+}
+
+.item1 {
+	grid-area: item1;
+}
+.item2 {
+	grid-area: item2;
+}
+.item3 {
+	grid-area: item3;
+}
+.item4 {
+	grid-area: item4;
+}
+.item5 {
+	grid-area: item5;
+}
+.item6 {
+	grid-area: item6;
+}
